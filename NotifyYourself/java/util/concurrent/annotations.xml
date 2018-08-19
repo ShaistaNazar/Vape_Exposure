@@ -1,0 +1,5 @@
+<root>
+    <item name='java.util.concurrent.Executors.DelegatedScheduledExecutorService'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

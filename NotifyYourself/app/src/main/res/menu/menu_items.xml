@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cp"  android:title="Change Password" android:icon="@drawable/ic_vpn_key_black_24dp"/>
+    <item android:id="@+id/jtl" android:title="Lock out Your App" android:icon="@drawable/ic_lock_black_24dp"/>
+    <item android:id="@+id/ht"  android:title="Some Healthy Tips" android:icon="@drawable/ic_child_care_black_24dp"/>
+    <item android:id="@+id/h"   android:title="Help" android:icon="@drawable/ic_help_black_24dp"/>
+    <item android:id="@+id/lo"   android:title="Sign_Out" android:icon="@drawable/logout"/>
+</menu>

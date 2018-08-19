@@ -1,0 +1,339 @@
+<resources>
+    <string name="app_name">Vape Exposure</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_scrolling">Main Activity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="abc">
+
+           <b>"Write down why you want to quit vaping as motivation."</b>
+            Create a list of every reason why you want to quit. Look at this for inspiration if quitting gets tough.
+            Some reasons you may want to quit include:
+            "Vaping is not proven to be safe. Most e-cigarettes still contain nicotine, and vapor may cause damage your lungs."
+            "Vaping is an expensive habit. Quitting vaping would help you save money and allow you to pursue other interests in life."
+            "The addiction to nicotine and the routine of vaping can control your life by forcing you to vape as soon as cravings
+             kick in. By quitting, you can take control back.
+            "If you are a parent, quitting can be beneficial to your child’s health and also help you model healthy behavior for them.
+
+        <b>"Identify your vaping triggers so that you can avoid them.</b>
+
+            "Certain activities can cause you to crave e-cigarettes after you quit.
+           Make a list of when and where you usually vape. These will likely become your triggers once you quit."
+            "If you always vape after waking up, plan a new activity to do in the morning, such as yoga or taking a walk.
+
+          <b>"Tell your friends and family in advance that you are going to quit.</b>
+
+            "If any of your friends smoke or vape, ask them if they would stop doing it in your presence.
+        For example, you might say, “I’m really trying hard to quit. I know you still like to vape,
+        and that’s OK. I just ask that you avoid doing it around me.
+            "It could also be helpful to ask a close friend who also vapes to quit with you.
+        You can provide support and hold each other accountable."
+
+        <b>"Inform your doctor that you want to quit vaping.</b>
+
+            "Your doctor can help you develop an effective quit plan.
+             They may also be able to prescribe a medication that will increase your chances of success during nicotine withdrawal.
+            "Nicotine patches and lozenges do not require a prescription, although nasal sprays containing nicotine do.
+            "Your doctor may prescribe a medicine containing bupropion hydrochloride, such as Wellbutrin or Zyban.
+             Another common medication is varenicline.These can help you during the withdrawal phase.
+
+        <b>"Determine if you want to wean off e-cigarettes or quit cold turkey.</b>
+
+             There are 2 ways to quit vaping. Weaning involves slowly lowering the amount of nicotine.
+            . Quitting cold turkey, on the other hand,"The weaning method allows you to quit nicotine first.
+        that you quit vaping entirely without weaning off nicotine first.
+        but "Quitting cold turkey is a cheaper and faster option, although withdrawal is more complicated and intense.
+                                                         :)
+
+             Once you are through nicotine withdrawal,
+            you can then focus on breaking the routine of vaping. This method will help you manage cravings,
+             although it can take a while.
+
+
+        </string>
+    <string name="bcd">
+            <b>"Set a schedule for weaning off nicotine.</b>
+
+            "Setting goals for when you want to quit nicotine entirely will help make the process more successful.
+            Create a timeline. Identify when you want to switch to lower levels of nicotine and when you want to
+            quit nicotine entirely.
+            "For example, you might lower your nicotine level to 11 mg for 2 weeks and then lower it to 8 mg for
+            another 2 weeks before you start using zero-nicotine liquid.
+            "Remember, nicotine withdrawal usually lasts about a month. While it might be less intense if you wean
+            off of it first, make sure that you understand how long it might last.
+
+            <b>"Reduce the strength of nicotine in your liquid."</b>
+
+            "E-cigarette liquids come in 6 different strengths: 0 mg, 8 mg, 11 mg, 16 mg, 24 mg, and 36 mg.
+            To help wean you off of the nicotine, choose a slightly lower strength than normal. After a few weeks,
+            reduce the strength again.
+            "Go down one level at a time. If you vape a 16 mg level, you can first move down to 11 mg and then to 8 mg.
+            "Once you have successfully lowered the nicotine down to 8 mg, you may be able to switch to zero-nicotine
+            vape liquid. Despite weaning off nicotine, you may still have some cravings and withdrawals once you stop
+            using nicotine.
+            "You can get the different levels of nicotine at any vape shop.
+
+            <b>"Cut back on how often you vape."</b>
+
+            "Start by eliminating 1 vape session from your daily routine at a time.
+            For example, if you vape 4 times a day, try to cut back first to 3 times a day.
+            After a week or 2, reduce your vaping down to 2 sessions a day.
+            "Identify a specific time when you almost always vape and do something else during that time.
+            For example, if you always vape in the car, turn on some music and start singing instead.
+            "Be careful not to vape more often when you switch to a lower dose.
+            If you vape more often at a lower dosage, you will not reduce your nicotine intake."
+
+            <b>"Throw out your e-cigarette." </b>
+
+            "Once nicotine withdrawal has passed, schedule a day to completely quit vaping.
+            The night before, throw out all of your e-cigarettes and supplies, such as tanks, mods, and e-liquids."
+
+            <b>"Busy your hands when you want to vape.</b>" +
+
+            "This will help you break the habit of reaching for an e-cigarette.
+            During times when you normally like to vape, do something else with your hands."
+            "For example,if you always vape while watching TV at home, start an activity that uses your hands. :)
+            You could learn to knit or play a game on your phone. Using a coloring app can be helpful
+            as it requires you to focus on the details and use creativity."
+            "If you vape socially, bring a stress ball with you. Squeeze it when you are feeling the craving to vape.
+
+        </string>
+    <string name="cde">
+            <b>"Schedule the day you want to quit vaping."</b>
+
+            "By picking a specific day, you will avoid procrastinating about quitting.
+            It will also give you a little bit of time to prepare for quitting itself.
+            This will increase your chances of success."
+            <b>"Throw away all of your e-cigarettes.</b>"
+
+            "The night before you quit, throw away all of your e-cigarettes and liquids.
+            Take the trash out so that you cannot retrieve these supplies when withdrawal kicks in."
+            "You may start feeling cravings as soon as 1 hour after your last e-cigarette."
+            <b>"Keep yourself busy during the withdrawal period.</b>"
+
+            "Withdrawal can be more intense for people quitting cold turkey than those weaning off
+             of nicotine slowly. To be prepared for this, plan to keep yourself active and occupied
+             throughout the withdrawal period.""Schedule activities for yourself when you usually vape.
+             For example, take a nighttime pottery class instead of sitting at home.
+             It is a good idea to plan more activities than you may have time for,
+             just to avoid any downtime."
+             "Incorporate some light exercise into your routine. You might go for a run after work or
+             take a brisk walk when you wake up."  :)
+
+    </string>
+    <string name="def">
+                <b> "Prepare for side effects lasting up to a month."</b>
+            "Everyone experiences withdrawal differently. You may have increased appetite, insomnia, strange dreams,
+             chills, anxiety, heartburn, or a number of other effects. In most cases, however, these symptoms only
+             last up to a month."
+            "Insomnia usually only lasts for the first week. If you have insomnia after this week, see a doctor."
+            "You may feel hungrier than normal for the first 2 weeks. Instead of reaching for sugary or processed snacks,
+             try snacking on vegetables and fruits. Some good snacks include carrots and hummus, celery and peanut butter,
+           or apple slices."
+            "As time goes on, cravings will grow farther and farther apart. You may still feel occasional cravings for up
+           a year after quitting."
+
+               <b>"Chew gum or hard foods when you get a craving." </b>
+
+            "The act of chewing can distract your brain from the craving. If you don’t like gum, vegetables or
+            fruits—like carrots, apples, or celery—also work well. You can even suck on a piece of hard candy to keep your
+            mouth busy."
+
+                 <b>"Use nicotine gum, lozenges, or patches to help manage cravings."</b>
+
+            "You can get these without a prescription at a drugstore. Over time, you may reduce the dose of nicotine
+             Talk to your doctor to find the best option for you."
+            "You can chew gum until your mouth tingles.
+
+                 <b>"Give yourself rewards when you reach your goals."</b>
+
+            "Rewards will teach your brain that good things happen when you avoid vaping. Create small rewards for both
+            little victories and big ones.":)
+
+                  <b>"Get some extra sleep."</b>
+
+            "Try going to bed earlier in the evening to help prevent this feeling of exhaustion.
+             You may also want to plan daily naps."
+
+    </string>
+    <string name="efg">
+                   <b>"Join a support group."</b>
+
+            "Groups like Nicotine Anonymous often meet at community centers, houses of worship, and hospitals.
+             These groups will connect you with others who are struggling to kick their nicotine habit.
+             They can provide advice and support throughout the process of quitting."
+            "You can find a local Nicotine Anonymous group by going here:
+             https://nicotine-anonymous.org/find-a-meeting.html"
+            "There are also online support groups, such as Voices of Nicotine Recovery and In the Rooms."
+
+                   <b>"Call a helpline if you need additional support."</b>
+
+            "These phone lines are free to use. They will connect you to a speaker who can talk you through
+             your cravings and motivate you to continue"
+
+                   <b>"Reduce stress in your life."</b>
+
+            "Quitting vaping may increase irritability or anxiety in your life, both of which can affect your personal
+             relationships and cause new stress. To increase your chances of success, try to eliminate any sources of stress."
+            "Try to avoid taking on new responsibilities at work or in your social life until you have successfully quit."
+            "Avoid people and situations that make you feel stressed. For example, if you get nervous at large parties,
+            stick to smaller social events until you have quit."
+            "Look into relaxation techniques, such as meditation or tai chi. Take some time each day to unwind.   :)
+
+    </string>
+    <string name="effects">
+        <b>"Dry Mouth, Dry Lips, and Sore Throat."</b>\n
+
+                "E-liquid, used in e-cigarettes to produce vapor, is a humectant (an agent that attracts moisture)"
+                " which can dry your mouth and throat, and possibly leave them feeling sore and/or irritated."
+                " Increased thirst is also commonly reported by smokers transitioning to vaping."
+                " This effect can be combated by increasing daily water consumption,"
+                " drinking small amounts often over the course of the day, especially when vaping."\n
+        <b>"Headaches, Nausea or Racing Pulse"</b>\n
+
+                "Negative effects such as headaches, nausea, or a racing pulse can result from the change"
+                " in the body’s nicotine levels within a short period of time. If you experience any of these symptoms,"
+                " it’s recommended to lower your nicotine concentration and consult with your doctor."\n
+        <b>"Muscle Pain, Cramps and Aches"</b>\n
+
+                "The vegetable glycerine in e-liquid converts to lactic acid in the body,"
+                " which can sometimes cause muscle pain, cramps and aches."
+                " Most people experiencing this symptom find that drinking more fluids helps "
+                "to flush the lactic acid from their system, in addition to soothing other effects,"
+                " such as dry mouth and sore throat. Persistent problems of this nature can indicate"
+                " an allergy to vegetable glycerin. In this case, medical consultation is highly recommended."\n
+        <b>"Allergic Reaction to Propylene Glycol"</b>\n
+
+                "Persistent sore throat and muscle pain may also indicate an allergy to propylene glycol,"
+                " another ingredient in e-liquid. Allergy symptoms may include night sweats, body rash, diarrhea,"
+                " and a dry, irritated, or sore throat. If you are experiencing any of these specific symptoms,"
+                " we recommend you seek the advice of your doctor and switch to a vegetable glycerin (VG) only e-liquid."\n:)
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="help">
+    <b>
+        NEED HELP....SO DONT WORRY BECAUSE FOLLOWING IS THE GUIDE THAT HOW TO USE APP :)
+    </b>\n
+    <u> "FIND DEVICE:"</u>\n
+            on pressing "FIND DEVICE",you will be able to find your required hardware so
+            that signals from other devices may not interrupt performance and Application just accept
+            required signals.\n
+    <u>"START CONNECTION:"</u>\n
+            on pressing button"START CONNECTION" you will be able to establish bluetooth
+            connection and app would start to receive signals sent by hardware.\n
+    <u>"VIEW RECORDS:"</u>\n
+            "RECORDS" option will not only make you able to view records but also delete any record.\n
+    <u>"STOP SERVICE:"</u>\n
+             when you want to stop receiving signals from detector,press it.\n
+
+    <u>"PRESSING THE DEVICE NAME:"</u>\n
+              dont ever forget to press on device name because its only the way,
+              you can successfully connect your detector to the Aplplication.\n
+    <u>"SIGN_OUT:"</u>\n
+              by logging out you not only be able to receive signals from detector but
+              also your account detalis would also be deleted.And next time you would use product as new user.\n
+    <b>STEPS</b>\n
+      <i>1:find device</i>
+      <i>2:start building connection</i>
+      <i>3:pressing device name</i>
+    \n
+        <b>                                    :))</b>
+</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

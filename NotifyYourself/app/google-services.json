@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "960265299130",
+    "firebase_url": "https://be-vape-notified.firebaseio.com",
+    "project_id": "be-vape-notified",
+    "storage_bucket": "be-vape-notified.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960265299130:android:e2e5ce3488aeb6cc",
+        "android_client_info": {
+          "package_name": "com.example.dell.notifyyourself"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960265299130-f2til848o7s1uolinnmt08detmieqgg7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "960265299130-f2til848o7s1uolinnmt08detmieqgg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmA-Qt3rQyd_35czQex10-qFkNL_yXyQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
